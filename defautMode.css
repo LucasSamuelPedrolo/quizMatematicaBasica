@@ -1,0 +1,84 @@
+main {
+    background-color: rgb(12, 112, 129);
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(54, 253, 54);
+}
+
+.padraoMode-content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.game-screen {
+    background-color: rgb(233, 233, 209);
+    width: 80%;
+    height: 80%;
+    border: black solid 0.1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 3px;
+}
+
+.question {
+    color: black;
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.pontuacao {
+    height: 20px;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: aliceblue;
+    text-size-adjust: 10px;
+}
+
+.result {
+    width: auto;
+    height: 40px;
+    color: rgb(97, 175, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+ul {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn-question {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(24, 173, 24);
+    color: rgb(250, 250, 44);
+}
+
+.btn-question:hover {
+    background-color: rgb(12, 71, 12);
+}
+
+.timer {
+    font-size: 20px;
+    font-weight: bold;
+}

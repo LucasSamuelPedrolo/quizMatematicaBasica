@@ -1,0 +1,134 @@
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(12, 112, 129);
+}
+
+h1 {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    overflow: visible;
+    margin-bottom: 50px;
+}
+
+.dificuldade {
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    font-weight: bolder;
+    display: flex;
+    color: rgb(5, 92, 168);
+    width: 50%;
+    height: 50px;
+    border-radius: 2px;
+    border: solid rgb(83, 81, 81) 0.1px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 241, 241);
+    margin: 0 auto;
+    position: relative;
+}
+
+.btn-seletores {
+    position: absolute;
+    bottom: -140px;
+    transform: translate(0, 50%);
+    background-color: rgba(232, 241, 241, 0.87);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 2px;
+    border: solid rgb(68, 66, 66) 0.1px;
+}
+
+.btn-seletores a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    border: solid rgba(0, 0, 0, 0.384) 0.1px;
+    border-radius: 2.5px;
+    width: 200px;
+    background-color: rgb(228, 233, 231);
+    height: 23%;
+    overflow: hidden;
+}
+
+a {
+    color: black;
+    text-align: center;
+}
+
+.btn-seletores a:hover {
+    transition: 300ms all ease-in-out;
+    color: aliceblue;
+    width: 100%;
+}
+
+.dft-descricao {
+    display: none;
+    height: 10px;
+    font-size: 12px;
+    text-transform: lowercase;
+    letter-spacing: 0.78px;
+    font-weight: 100;
+    color: aliceblue;
+}
+
+.btn-seletores a:nth-child(1):hover {
+    background-color: rgb(67, 247, 67);
+}
+
+.btn-seletores a:nth-child(2):hover {
+    background-color: rgb(67, 160, 247);
+}
+
+.btn-seletores a:nth-child(3):hover {
+    background-color: rgb(243, 50, 76);
+}
+
+.btn-seletores a:hover .dft-descricao {
+    display: block;
+}
+
+@media (max-width:500px) {
+    .dificuldade {
+        text-align: center;
+    }
+
+    .dft-descricao {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .dificuldade {
+        text-align: center;
+        width: 100%;
+    }
+
+    .dft-descricao {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .btn-seletores{
+        width: 100%;
+    }
+}
