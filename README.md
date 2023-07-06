@@ -7,7 +7,7 @@
   ![ezgif com-video-to-gif (2)](https://github.com/LucasSamuelPedrolo/quizMatematicaBasica/assets/132529241/13dd81a6-47d3-4f21-932c-5f1adb446701)
 
 
-  <i>tente bater seu record!</i>
+  <i>tente bater seu recorde!</i>
 <hr>
 
 ## Como funciona
