@@ -15,6 +15,8 @@
 
   O jogo consiste em você acertar a pergunta de acordo com a questão formulada em cima no tempo mais curto possivel,juntando o máximo de pontos que conseguir em cada vez que jogar!
 
+  <hr>
+
 ## Tecnologias utilizadas
 
   <ul>
@@ -22,6 +24,8 @@
     <li>CSS3</li>
     <li>JavaScript</li>
   </ul>
+
+  <hr>
 
 ## Como jogar 
 
