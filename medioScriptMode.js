@@ -4,6 +4,7 @@ const certaResposta = document.getElementById('result');
 let operacao = geradorQuestao();
 const timer = document.getElementById('timer');
 const pontuacao = document.getElementById('pontuacao');
+const btnIniciar = document.getElementById('start-btn');
 
 const segundos = 1;
 let timerStart;
@@ -11,8 +12,11 @@ let displayTempo = 7;
 let pontos = 0;
 
 questao.innerHTML = `Qual o resultado dessa questão? ${operacao}`;
+btnIniciar.addEventListener('click', () => {
+    btnIniciar.style.visibility = 'hidden';
+    inicializadorContagem(segundos);
+});
 
-inicializadorContagem(segundos);
 
 btnCorrect();
 
@@ -79,7 +83,7 @@ function geradorQuestao() {
 }
 
 function criaFalsaRespostas(resultadoOriginal) {
-    const resultadoFalso = resultadoOriginal - Math.floor(Math.random() * (7 - 1) + 1);
+    const resultadoFalso = resultadoOriginal - Math.floor(Math.random() * (15 - 2) + 1);
     return resultadoFalso;
 }
 
@@ -113,9 +117,16 @@ function pontuacaoUser(valor) {
         ++pontos;
     }
     if (pontos < 0) {
-        console.log('zerou');
+        pontos = 0;
+        btnIniciar.style.visibility = 'visible';
+        btnIniciar.innerHTML = '<button>iniciar novo jogo</button>';
+        clearInterval(timerStart);
+        operacao = geradorQuestao();
+        btnCorrect();
+        novoJogo();
+        questao.innerHTML = `Qual o resultado dessa questão? ${operacao}`;
     }
 
-    pontuacao.innerHTML = `pontuacao : ${pontos} pontos`;
+    pontuacao.innerHTML = `pontuação : ${pontos} pontos`;
 
 }

@@ -82,3 +82,30 @@ ul {
     font-size: 20px;
     font-weight: bold;
 }
+
+.start-btn{
+    position: absolute;
+    background-color: rgba(96, 96, 99, 0.897);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-btn button{
+    width: 350px;
+    height: 150px;
+    border-radius: 3px;
+    background-color: rgba(13, 236, 5, 0.836);
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.start-btn button:hover{
+    background-color: rgba(13, 177, 8, 0.836);
+}
+
