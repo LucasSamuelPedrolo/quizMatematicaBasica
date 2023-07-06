@@ -37,7 +37,7 @@ function novoJogo() {
         }
     }
 
-    displayTempo = 10;
+    displayTempo = 5;
 }
 
 function verificaJogada(escolha1, RespCorreta) {
