@@ -7,7 +7,7 @@
   ![ezgif com-video-to-gif (2)](https://github.com/LucasSamuelPedrolo/quizMatematicaBasica/assets/132529241/13dd81a6-47d3-4f21-932c-5f1adb446701)
 
 
-  <i>tente bater seu record anterior!</i>
+  <i>tente bater seu record!</i>
 <hr>
 
 ## Como funciona
@@ -17,7 +17,7 @@
 ![ezgif com-video-to-gif (1)](https://github.com/LucasSamuelPedrolo/quizMatematicaBasica/assets/132529241/b89c0af0-cffd-4110-bb2b-07db5f5ea2db)
 
 
-  O jogo consiste em você acertar a pergunta de acordo com a questão formulada em cima no tempo mais curto possivel,juntando o máximo de pontos que conseguir em cada vez que jogar!
+  O jogo consiste em você acertar a pergunta de acordo com a questão formulada em cima no tempo mais curto possivel,juntando o máximo de pontos que conseguir a cada vez que jogar!
 
   ![ezgif com-optimize](https://github.com/LucasSamuelPedrolo/quizMatematicaBasica/assets/132529241/e4528c7a-965d-4a59-beb3-9d09eeb9d78a)
 
