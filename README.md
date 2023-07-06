@@ -36,5 +36,6 @@
 ## Como jogar 
 
   você pode jogar e testar o jogo clicando em <a href="https://lucassamuelpedrolo.github.io/quizMatematicaBasica/" target='_blank'>Jogar!<a/>
-  
+
+<b>Compartibilidade com dispositivos moveis e computadores!</b>
   
